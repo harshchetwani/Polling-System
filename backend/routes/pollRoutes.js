@@ -1,6 +1,6 @@
 // routes/pollRoutes.js
 import express from 'express';
-import { createPoll, submitAnswer, getAllPolls, getPollResults } from '../controllers/pollController.js';
+import { createPoll, submitAnswer, getAllPolls, getPollResults } from '../backend/controllers/pollController.js';
 
 const router = express.Router();
 

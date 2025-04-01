@@ -4,8 +4,8 @@ import http from 'http';
 import { Server } from 'socket.io';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import chatRoutes from './routes/chatRoutes.js'; // Assuming chat routes exist
-import pollRoutes from './routes/pollRoutes.js'; // Import the new poll routes
+import chatRoutes from '../routes/chatRoutes.js'; // Assuming chat routes exist
+import pollRoutes from '../routes/pollRoutes.js'; // Import the new poll routes
 
 const app = express();
 const server = http.createServer(app);
